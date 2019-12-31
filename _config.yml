@@ -1,7 +1,7 @@
 site: Journal Jekyll Theme
 
-url: 
-baseurl: 
+url: pwnjack.github.io
+baseurl: /journal
 
 collections:
   pages:
