@@ -1,35 +1,29 @@
 ---
-title: About Journal
-subtitle: A stunning personal blog Jekyll theme with an image-focused design.
-description: A stunning personal blog Jekyll theme with an image-focused design.
+title: About
+subtitle: pwnjack - break the code
+description: pwnjack's personal blog.
 featured_image: /images/demo/demo-portrait.jpg
 ---
 
-![](/images/demo/demo-landscape.jpg)
+Welcome to my personal Blog. This website is a collection of notes and procedures, technical stuff and personal toughts on modern technologies.
 
-## Features
+I'm a Web Designer, front-end developer, tech enthusiast. Initially I created this website just as an archive for my code snippets, documents and guides that I often use during my web projects.
+Initially I decided to put everything on the web for my reference, in an easy and organized manner, to have them at hand, now the site became a blog of my activities and first of all a knowledge sharing platform dedicated to web design and technology lovers.
 
-Journal is packed with powerful features to showcase your work:
+* Full stack web developer
+    * HTML/CSS/PHP
+    * UI/UX Design
+    * git, gulp, sass, pug
+    * Wordpress
+* Network security expert and designer
+    * Certified SonicWall network expert
+    * Penetration and vulnerability testing
+    * Server hardening
+* Unix sysadmin and server management
+    * Linux, Solaris, HP-UX, VMware
+    * Virtualization, Clustering, Redundancy, Backup solutions
+    * CLI management
 
-* Beautiful, minimal design
-* Fixed sidebar images that animate as you browse
-* Single column post layout
-* Responsive – works perfectly on all devices
-* Portfolio/projects post type to show your work
-* Blog with pagination
-* Sleek Ajax navigation and page transitions
-* Unique 'gallery' feature for image grids and carousels
-* Built-in contact form with Formspree integration
-* Full markdown support and code highlighting
-* Social media icons
-* Fast page rendering
-* Built with SEO best practices in mind
-* Customize everything – colors, spacing, fonts, sizes etc. – via a simple settings file
-* Works with GitHub Pages
-* Updated and supported by the developers
+To stay updated and not miss any blog post you can subscribe to the xml feed by clicking the following button.
 
-## Get Index
-
-Journal is created and supported by [Jekyll Themes](https://jekyllthemes.io), and is available for $49.
-
-<a href="https://jekyllthemes.io/theme/journal-personal-jekyll-theme" class="button button--large">Get This Theme</a>
+<a href="https://pwnjack.com/sitemap.xml" class="button button--large">Subscribe</a>
