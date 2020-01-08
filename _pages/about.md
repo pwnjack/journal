@@ -26,4 +26,4 @@ Initially I decided to put everything on the web for my reference, in an easy an
 
 To stay updated and not miss any blog post you can subscribe to the xml feed by clicking the following button.
 
-<a href="https://pwnjack.com/sitemap.xml" class="button button--large">Subscribe</a>
+<a href="/sitemap.xml" class="button button--large">Subscribe</a>
