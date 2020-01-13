@@ -23,17 +23,14 @@ categories:
 ---
 Sometimes is frustrating to update remote systems and not being able to notice any change in your browser, even by refreshing the page several times. Whenever you step in to this, you might want to resolve the issue as fast as possible, you can do that by using the following command:
 
-<pre class="brush: bash; title: ; notranslate" title="">// OSX 10.10.x &gt; 10.12.x
-sudo killall -HUP mDNSResponder
+    // OSX 10.10.x > 10.12.x
+    sudo killall -HUP mDNSResponder
 
-// Windows
-ipconfig /flushdns
+    // Windows
+    ipconfig /flushdns
 
-// Linux
-/etc/init.d/named restart
-/etc/init.d/nscd restart
-</pre>
+    // Linux
+    /etc/init.d/named restart
+    /etc/init.d/nscd restart
 
-&nbsp;
-
-You&#8217;re welcome
+You're welcome

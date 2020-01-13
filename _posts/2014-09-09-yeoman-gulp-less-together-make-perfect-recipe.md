@@ -33,11 +33,11 @@ If you do too, you could find useful this gulp-less version I made, ready-to-go.
 
 It contains:
 
-&#8211; Gulp  
-&#8211; Less  
-&#8211; Bootstrap  
-&#8211; HTML5 Boilerplate  
-&#8211; Modernizr
+- Gulp  
+- Less  
+- Bootstrap  
+- HTML5 Boilerplate  
+- Modernizr
 
 <a href="https://github.com/pwnjack/yeoman-gulp-less" title="yeoman-gulp-less" target="_blank">yeoman-gulp-less</a>
 

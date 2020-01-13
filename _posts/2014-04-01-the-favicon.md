@@ -27,14 +27,11 @@ tags:
 ---
 Sometimes people forget about the favicon, that nice tiny icon on the tab of our browser that will also serve as an icon when you save the website on your favorites.
 
-How to have a cross-browser 100% working favicon? Let&#8217;s see.
+How to have a cross-browser 100% working favicon? Let's see.
 
 First of all you have to indicate in your markup the location of your favicon file with this snippet inside your <head>:
 
-<pre class="brush: xml; title: ; notranslate" title="">&lt;link rel="shortcut icon" href="favicon.ico" type="image/x-icon"&gt;
-</pre>
-
-Remember that if you don&#8217;t specify where the favicon is with this snippet the browser will guess that it&#8217;s on the root folder (/), but it&#8217;s a good pratice to indicate it also when it&#8217;s in the default location.
+Remember that if you don't specify where the favicon is with this snippet the browser will guess that it's on the root folder (/), but it's a good pratice to indicate it also when it's in the default location.
 
 You have to remember that the favicon to be cross-browser compatible must be an _.ico_ file, and not a _.png_.  
 To have such file just create your favicon in Photoshop or any other image manipulation software and save it as a _.png_ at 16&#215;16 pixels. When you are done save it and import it in this useful online tool called <a title="ICO Converter" href="http://www.icoconverter.com/" target="_blank">ICO Converter</a>.

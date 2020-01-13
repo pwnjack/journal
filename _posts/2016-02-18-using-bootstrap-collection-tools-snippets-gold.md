@@ -27,6 +27,6 @@ tags:
   - snippet
   - web tool
 ---
-If you are a front-end developer you are probably using Boostrap, here&#8217;s <a href="http://bootsnipp.com" target="_blank">Bootsnip</a>, a website containing a collection of very useful, ready-to-use, snippets. This will save you the most useful resource of them all: time.
+If you are a front-end developer you are probably using Boostrap, here's <a href="http://bootsnipp.com" target="_blank">Bootsnip</a>, a website containing a collection of very useful, ready-to-use, snippets. This will save you the most useful resource of them all: time.
 
 Enjoy

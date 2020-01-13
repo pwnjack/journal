@@ -34,19 +34,14 @@ The first one is to show hidden files, the second one to hide them again.
 
 For OSX 10.9:
 
-<pre class="brush: powershell; title: ; notranslate" title="">defaults write com.apple.finder AppleShowAllFiles TRUE
-
-defaults write com.apple.finder AppleShowAllFiles FALSE
-</pre>
+    defaults write com.apple.finder AppleShowAllFiles TRUE
+    defaults write com.apple.finder AppleShowAllFiles FALSE
 
 For OSX 10.8 and earlier:
 
-<pre class="brush: powershell; title: ; notranslate" title="">defaults write com.apple.Finder AppleShowAllFiles TRUE
-
-defaults write com.apple.Finder AppleShowAllFiles FALSE
-</pre>
+    defaults write com.apple.Finder AppleShowAllFiles TRUE
+    defaults write com.apple.Finder AppleShowAllFiles FALSE
 
 After that, you need to reset the Finder with this command:
 
-<pre class="brush: powershell; title: ; notranslate" title="">killall Finder
-</pre>
+    killall Finder

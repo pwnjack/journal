@@ -29,11 +29,11 @@ tags:
   - save notes
   - sticky notes
 ---
-There&#8217;s an awesome tool out there called <a href="http://evernote.com/" title="Evernote" target="_blank">Evernote</a>, it&#8217;s like a big collection of notes that you can keep synced across ALL your devices and easily accessible from everywhere, even on the website if you are on a stranger&#8217;s computer.
+There's an awesome tool out there called <a href="http://evernote.com/" title="Evernote" target="_blank">Evernote</a>, it's like a big collection of notes that you can keep synced across ALL your devices and easily accessible from everywhere, even on the website if you are on a stranger's computer.
 
 It comes with an optional browser plugin (Chrome and Firefox), called <a href="http://evernote.com/intl/it/webclipper/" title="Evernote Web Clipper" target="_blank">Evernote Web Clipper</a>, that makes saving notes from the web as easy as a mouse click.
 
-There&#8217;s an Evernote for every platform out there and for every device too, it&#8217;s awesome!
+There's an Evernote for every platform out there and for every device too, it's awesome!
 
 Never forget anything ever again with Evernote.
 

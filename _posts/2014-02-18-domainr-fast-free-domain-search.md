@@ -27,7 +27,7 @@ tags:
 ---
 When you are about to start a new startup company or project and you need to find a web domain for it, the task become pretty hard nowadays, because almost all names are registered, so the difficult thing is not only to find a nice name but also to find an available one.
 
-For this task there&#8217;s a web tool called <a title="Domainr" href="https://domai.nr/" target="_blank">Domainr</a>, it&#8217;s a super fast domain search utility that will instantly tell you if it&#8217;s available or not, while typing, and will also suggest some free alternatives, pretty nice!
+For this task there's a web tool called <a title="Domainr" href="https://domai.nr/" target="_blank">Domainr</a>, it's a super fast domain search utility that will instantly tell you if it's available or not, while typing, and will also suggest some free alternatives, pretty nice!
 
 Try it yourself, it will become your favorite domain search tool for sure!
 

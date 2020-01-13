@@ -27,7 +27,6 @@ tags:
 ---
 How to git commit from CLI:
 
-<pre class="brush: bash; title: ; notranslate" title="">git add .
-git commit -m ‘commit name’
-git push origin master
-</pre>
+    git add .
+    git commit -m ‘commit name’
+    git push origin master

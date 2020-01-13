@@ -29,24 +29,22 @@ tags:
   - osx wget
   - package manager
 ---
-Ever wondered why OSX is missing some very useful CLI programs like &#8220;wget&#8221; or &#8220;nmap&#8221;?
+Ever wondered why OSX is missing some very useful CLI programs like "wget" or "nmap"?
 
-Well, no one cares why, but here&#8217;s the solution: <a href="http://brew.sh/index.html" title="Homebrew" target="_blank">Homebrew</a>, a package manager for OSX.
+Well, no one cares why, but here's the solution: <a href="http://brew.sh/index.html" title="Homebrew" target="_blank">Homebrew</a>, a package manager for OSX.
 
 To install Homebrew open your terminal and run:
 
-<pre class="brush: bash; title: ; notranslate" title="">ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
-</pre>
+    ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 
 Ta dah.
 
 Now how to use it (e.g.):
 
-<pre class="brush: bash; title: ; notranslate" title="">brew install wget
-</pre>
+    brew install wget
 
 And voilà, you are covered.
 
-Don&#8217;t sudo, it&#8217;s not needed, Homebrew installs packages to their own directory and then symlinks their files into /usr/local. So you don&#8217;t need to use sudo.
+Don't sudo, it's not needed, Homebrew installs packages to their own directory and then symlinks their files into /usr/local. So you don't need to use sudo.
 
 Enjoy!

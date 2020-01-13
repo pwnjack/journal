@@ -24,10 +24,10 @@ tags:
   - brutal
   - web design
 ---
-The web is going brutal. The new trend is to develop websites literally &#8220;throwing&#8221; content on yo&#8217; face.
+The web is going brutal. The new trend is to develop websites literally "throwing" content on yo' face.
 
-I like this, actually. As a web artisan this way of making things simplifies a lot the work and&#8230; it&#8217;s surprisingly effective. Giving the user too many choices creates confusion, giving him only what he&#8217;s looking for tho, is quite functional, even if it seems simplistic, it just works! Not to be underestimated.
+I like this, actually. As a web artisan this way of making things simplifies a lot the work and… it's surprisingly effective. Giving the user too many choices creates confusion, giving him only what he's looking for tho, is quite functional, even if it seems simplistic, it just works! Not to be underestimated.
 
 Have a look at this: <a href="http://brutalistwebsites.com" target="_blank">brutalistwebsites.com</a>
 
-Looking forward to see development&#8217;s new trends, see ya web folks.
+Looking forward to see development's new trends, see ya web folks.

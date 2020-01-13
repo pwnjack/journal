@@ -26,24 +26,20 @@ tags:
   - shutdown
   - terminal
 ---
-Here&#8217;s how you can shutdown your Mac from the command line interface, remember that you must have administration privileges to do so, infact every command must be prefixed with &#8220;sudo&#8221;.
+Here's how you can shutdown your Mac from the command line interface, remember that you must have administration privileges to do so, infact every command must be prefixed with "sudo".
 
 Shutdown now:
 
-<pre class="brush: plain; title: ; notranslate" title="">sudo shutdown -h now
-</pre>
+    sudo shutdown -h now
 
 Reboot now:
 
-<pre class="brush: plain; title: ; notranslate" title="">sudo shutdown -r now
-</pre>
+    sudo shutdown -r now
 
 Shutdown at 9pm:
 
-<pre class="brush: plain; title: ; notranslate" title="">sudo shutdown -h 21:00
-</pre>
+    sudo shutdown -h 21:00
 
 Shutdown in 5 minutes:
 
-<pre class="brush: plain; title: ; notranslate" title="">sudo shutdown -h +5
-</pre>
+    sudo shutdown -h +5

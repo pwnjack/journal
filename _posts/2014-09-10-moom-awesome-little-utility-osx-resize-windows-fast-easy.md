@@ -30,6 +30,6 @@ Have you ever heard of <a href="http://manytricks.com/moom/" title="Moom" target
 
 Moom is a small utility that helps you to save time while moving/resizing windows on your Mac, you can even save your favorite positions/dimensions and make a shortcut button for them.
 
-This tiny utilty can greatly improve your productivity. Give it a try, even if it&#8217;s not free is definitely worth the money (10usd). If you are not convinced yet go for the free trial first.
+This tiny utilty can greatly improve your productivity. Give it a try, even if it's not free is definitely worth the money (10usd). If you are not convinced yet go for the free trial first.
 
 Hope this helps!

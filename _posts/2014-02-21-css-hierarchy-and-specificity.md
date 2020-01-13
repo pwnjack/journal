@@ -25,36 +25,29 @@ tags:
   - hierarchy
   - specificity
 ---
-Sometimes there&#8217;s some confusion around the CSS rules and their effectiveness. This post&#8217;s scope is to clarify how it works and why sometimes it seems you are forced to use:
+Sometimes there's some confusion around the CSS rules and their effectiveness. This post's scope is to clarify how it works and why sometimes it seems you are forced to use:
 
-<pre class="brush: css; title: ; notranslate" title="">!important
-</pre>
+    !important
 
-In CSS the last declared rule win, but the inline rule win over it, and the !important win over all of them. Then comes in the &#8220;specificity&#8221; factor, the more specific, the stronger.
+In CSS the last declared rule win, but the inline rule win over it, and the !important win over all of them. Then comes in the "specificity" factor, the more specific, the stronger.
 
-Here&#8217;s an example:
+Here's an example:
 
-<pre class="brush: css; title: ; notranslate" title="">h1 {font-size: 24px;}
+    h1 {font-size: 24px;}
 
-h1 {font-size: 28px;}
-
-</pre>
+    h1 {font-size: 28px;}
 
 The font will render at 28px.
 
-<pre class="brush: css; title: ; notranslate" title="">body h1 {font-size: 24px;}
+    body h1 {font-size: 24px;}
 
-h1 {font-size: 28px;}
-
-</pre>
+    h1 {font-size: 28px;}
 
 The font will render at 24px.
 
-<pre class="brush: css; title: ; notranslate" title="">h1 {font-size: 24px !important;}
+    h1 {font-size: 24px !important;}
 
-h1 {font-size: 28px;}
-
-</pre>
+    h1 {font-size: 28px;}
 
 The font will render at 24px.
 

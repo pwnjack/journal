@@ -28,58 +28,56 @@ tags:
 ---
 Here is a list of Sublime Text 3 plugins that you MUST have, or at least know about, because believe me, they will save you a lot of time.
 
-**&#8211; Emmet**  
+**- Emmet**  
 This plugin is awesome, formerly called Zen Coding, Emmet gives you awesome snippets functionality, but let me show you how it works:  
 If for istance in my markup (HTML) I need an header with a navigation menu and some classes you can do it this way:
 
-<pre class="brush: plain; title: ; notranslate" title="">header&gt;nav&gt;ul&gt;li*4&gt;a[href="#"]
-</pre>
+    header>nav>ul>li*4>a[href="#"]
 
 Press TAB and it will render as:
 
-<pre class="brush: xml; title: ; notranslate" title="">&lt;header&gt;
-	&lt;nav&gt;
-		&lt;ul&gt;
-			&lt;li&gt;&lt;a href="#"&gt;&lt;/a&gt;&lt;/li&gt;
-			&lt;li&gt;&lt;a href="#"&gt;&lt;/a&gt;&lt;/li&gt;
-			&lt;li&gt;&lt;a href="#"&gt;&lt;/a&gt;&lt;/li&gt;
-			&lt;li&gt;&lt;a href="#"&gt;&lt;/a&gt;&lt;/li&gt;
-		&lt;/ul&gt;
-	&lt;/nav&gt;
-&lt;/header&gt;
-</pre>
+    <nav>
+      <ul>
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+      </ul>
+    </nav>
+    </header>
 
-Awesome, isn&#8217;t it?
+Awesome, isn't it?
 
 Imagine when you get used to this how much time you could save while writing your markup.
 
-**&#8211; Less/Sass**
+**- Less/Sass**
 
 If you use a CSS pre-processor, and i believe you do, you have to install this plugins to enable syntax highlighting for those languages.
 
-**&#8211; Color Highlighter**
+**- Color Highlighter**
 
 This plugin highlights the color codes with the respective color, for example if i select #000 in my code, it will be wrapped by a black glow, very useful to know what color is a given code, super useful.
 
-**&#8211; jQuery Snippets**
+**- jQuery Snippets**
 
 A collection of snippets for jQuery development that gives you nice suggestions while typing your code, to go as smooth as possible.
 
-**&#8211; Bootstrap 3 Snippets**
+**- Bootstrap 3 Snippets**
 
 Are you a Twitter Bootstrap user? This plugins will allow you to never go back to the web docs to copy-paste code snippets, infact it gives you them all on the fly while typing, like:
 
-<pre class="brush: plain; title: ; notranslate" title="">bs3-input:text
-</pre>
+    bs3-input:email
 
 Will render as:
 
-<pre class="brush: xml; title: ; notranslate" title="">&lt;input type="text" name="" id="input" class="form-control" value="" required="required" pattern="" title=""&gt;
-</pre>
+    <div class="input-group">
+    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+    <input id="email" type="text" class="form-control" name="email" placeholder="Email">
+    </div>
 
 Sweet.
 
-**&#8211; Sidebar Enhancements**
+**- Sidebar Enhancements**
 
 This plugin enhance your sidebar giving you a lot of right-click options for files, like: duplicate, remove, reveal in finder, show in your browser, etc. Very handful.
 

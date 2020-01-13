@@ -27,12 +27,11 @@ tags:
   - variable
   - windows
 ---
-To setup a permanent environement variable in Windows, for instance if you want to use &#8220;nmap&#8221; from everywhere and not only in it&#8217;s specific directory, do as follows:
+To setup a permanent environement variable in Windows, for instance if you want to use "nmap" from everywhere and not only in it's specific directory, do as follows:
 
 In CMD set the variable like this:
 
-<pre class="brush: plain; title: ; notranslate" title="">setx PATH "%PATH%;C:\Program Files (x86)\Nmap"
-</pre>
+    setx PATH "%PATH%;C:\Program Files (x86)\Nmap"
 
 Now the variable not only is set-up but is also permanent even if you restart cmd.exe.
 

@@ -27,7 +27,6 @@ tags:
 ---
 Create an empty index.html file and paste this string in it to redirect visitors to another desired page.
 
-<pre class="brush: xml; title: ; notranslate" title="">&lt;META HTTP-EQUIV="REFRESH" CONTENT="1; URL=http://www.exampledomainname.com"&gt;
-</pre>
+    <META HTTP-EQUIV="REFRESH" CONTENT="1; URL=http://www.example.com">
 
 Remember to change the destination url to fit your case, obviously.

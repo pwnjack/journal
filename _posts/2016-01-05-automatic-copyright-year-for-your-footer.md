@@ -26,31 +26,26 @@ tags:
   - copyright
   - year
 ---
-Here&#8217;s a snippet that comes in handy when you need to write the current year in the footer and you want it to be always up to date.
+Here's a snippet that comes in handy when you need to write the current year in the footer and you want it to be always up to date.
 
 PHP:
 
-<pre class="brush: php; title: ; notranslate" title="">// Current year
-&copy; &lt;?php echo date("Y") ?&gt;
+    // Current year
+    &copy; <?php echo date("Y") ?>
 
-// With starting year
-&copy; 2015-&lt;?php echo date("Y") ?&gt;
-</pre>
+    // With starting year
+    &copy; 2015-<?php echo date("Y") ?>
 
-&nbsp;  
 jQuery:
 
-<pre class="brush: jscript; title: ; notranslate" title="">// Store year variable
-var currentYear = (new Date).getFullYear();
+    // Store year variable
+    var currentYear = (new Date).getFullYear();
 
-// Apply text to id element with jQuery
-$('#footerYear').text(currentYear);
-</pre>
+    // Apply text to id element with jQuery
+    $('#footerYear').text(currentYear);
 
-&nbsp;  
 And Vanilla Javascript, because why not.
 
-<pre class="brush: jscript; title: ; notranslate" title="">var d = new Date();
-	var n = d.getFullYear();
-	document.getElementById("year").innerHTML = n;
-</pre>
+    var d = new Date();
+    var n = d.getFullYear();
+    document.getElementById("year").innerHTML = n;

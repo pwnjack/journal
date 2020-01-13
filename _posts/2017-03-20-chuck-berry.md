@@ -22,4 +22,4 @@ categories:
   - quote
 format: quote
 ---
-It&#8217;s amazing how much you can learn if your intentions are truly earnest.
+It's amazing how much you can learn if your intentions are truly earnest.

@@ -35,32 +35,26 @@ To do this you need to open your _phpmyadmin_ for managing the MySQL database, t
 Be sure to change the code with your correct data.  
 Set new website URL:
 
-<pre class="brush: sql; title: ; notranslate" title="">UPDATE wp_options SET option_value = 'http://www.yourdomain.com' WHERE option_name IN ('siteurl', 'home')
-</pre>
+    UPDATE wp_options SET option_value = 'http://www.yourdomain.com' WHERE option_name IN ('siteurl', 'home')
 
 Replace URL in content:
 
-<pre class="brush: sql; title: ; notranslate" title="">UPDATE wp_posts SET post_content=(REPLACE (post_content, '{old url}','{new url}'))
-</pre>
+    UPDATE wp_posts SET post_content=(REPLACE (post_content, '{old url}','{new url}'))
 
 Change GUID:
 
-<pre class="brush: sql; title: ; notranslate" title="">UPDATE wp_posts SET guid = REPLACE (guid, 'http://www.oldsiteurl.com', 'http://www.newsiteurl.com');
-</pre>
+    UPDATE wp_posts SET guid = REPLACE (guid, 'http://www.oldsiteurl.com', 'http://www.newsiteurl.com');
 
 Change URL in Content:
 
-<pre class="brush: sql; title: ; notranslate" title="">UPDATE wp_posts SET post_content = REPLACE (post_content, 'http://www.oldsiteurl.com', 'http://www.newsiteurl.com');
-</pre>
+    UPDATE wp_posts SET post_content = REPLACE (post_content, 'http://www.oldsiteurl.com', 'http://www.newsiteurl.com');
 
 Change IMG URL in Content:
 
-<pre class="brush: sql; title: ; notranslate" title="">UPDATE wp_posts SET post_content = REPLACE (post_content, 'src="http://www.oldsiteurl.com', 'src="http://yourcdn.newsiteurl.com');
-</pre>
+    UPDATE wp_posts SET post_content = REPLACE (post_content, 'src="http://www.oldsiteurl.com', 'src="http://yourcdn.newsiteurl.com');
 
 Reset User password:
 
-<pre class="brush: sql; title: ; notranslate" title="">UPDATE wp_users SET user_pass = MD5( 'new_password' ) WHERE user_login = 'your-username';
-</pre>
+    UPDATE wp_users SET user_pass = MD5( 'new_password' ) WHERE user_login = 'your-username';
 
 Enjoy!

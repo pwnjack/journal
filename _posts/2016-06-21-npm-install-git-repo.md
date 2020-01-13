@@ -25,22 +25,20 @@ tags:
   - npm install
   - revision
 ---
-Sometimes you&#8217;ll need to install an npm package from a git repo, often more updated than the actual package&#8217;s npm registry official release version.
+Sometimes you'll need to install an npm package from a git repo, often more updated than the actual package's npm registry official release version.
 
 To install a git repo via npm use the following syntax:
 
-<pre class="brush: plain; title: ; notranslate" title="">## Public repos
-npm install git+https://github.com/&lt;repo-owner&gt;/&lt;repo&gt;.git[#branch]
-npm install git+ssh://git@github.com/&lt;repo-owner&gt;/&lt;repo&gt;.git[#branch]
-npm install git://github.com/&lt;repo-owner&gt;/&lt;repo&gt;.git[#branch]
+    ## Public repos
+    npm install git+https://github.com/<repo-owner>/<repo>.git[#branch]
+    npm install git+ssh://git@github.com/<repo-owner>/<repo>.git[#branch]
+    npm install git://github.com/<repo-owner>/<repo>.git[#branch]
 
-## Private repos
-npm install git+ssh://git@github.com/&lt;repo-owner&gt;/&lt;repo&gt;.git[#branch]
-</pre>
+    ## Private repos
+    npm install git+ssh://git@github.com/<repo-owner>/<repo>.git[#branch]
 
 Working example given:
 
-<pre class="brush: plain; title: ; notranslate" title="">npm install git+https://github.com/taptapship/wiredep.git
-</pre>
+    npm install git+https://github.com/taptapship/wiredep.git
 
 This is useful when in need to try beta versions or many other cases, hope this helps!

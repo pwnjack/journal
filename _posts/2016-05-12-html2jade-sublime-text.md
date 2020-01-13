@@ -29,7 +29,7 @@ tags:
 ---
 Jade fan?
 
-You are probably already using Sublime Text (if you don&#8217;t, do.)
+You are probably already using Sublime Text (if you don't, do.)
 
 Tired of copy-pasting HTML snippets and then have to convert them to jade?
 
@@ -37,8 +37,8 @@ With [html2jade](https://github.com/anderson916/sublime-html2jade) converting HT
 
 You can:
 
-&#8211; Convert whole HTML file Shift+Alt+F &#8211; creates new file in the same folder using the same name as the source ending with &#8216;.html&#8217;.  
-&#8211; Convert selection Shift+Alt+S &#8211; replaces selection of HTML with JADE content.  
-&#8211; Convert clipboard content Shift+Alt+V &#8211; inserts JADE of converted clipboard HTML content.
+- Convert whole HTML file Shift+Alt+F - creates new file in the same folder using the same name as the source ending with '.html'.  
+- Convert selection Shift+Alt+S - replaces selection of HTML with JADE content.  
+- Convert clipboard content Shift+Alt+V - inserts JADE of converted clipboard HTML content.
 
 A real time saver.

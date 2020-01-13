@@ -27,16 +27,16 @@ tags:
   - programming
   - social
 ---
-Github, who doesn&#8217;t know it?
+Github, who doesn't know it?
 
-Well if you don&#8217;t you are missing something big, something so useful that you will fall in love with it at the end of this article if you are a programmer like me.
+Well if you don't you are missing something big, something so useful that you will fall in love with it at the end of this article if you are a programmer like me.
 
 Github developed for developers, tricky word joke, but true.
 
-It&#8217;s a website where you can upload your project and organize it with documentation, versions, brenches, and more.
+It's a website where you can upload your project and organize it with documentation, versions, brenches, and more.
 
-It&#8217;s the developers social network, where everyone can upload his repository and everyone can contribute to it, with suggestions, code snippets, reporting issues and make pull requests.
+It's the developers social network, where everyone can upload his repository and everyone can contribute to it, with suggestions, code snippets, reporting issues and make pull requests.
 
-Their motto explains pretty much of it: &#8220;Building better software, together.&#8221;
+Their motto explains pretty much of it: "Building better software, together."
 
-It&#8217;s very useful when more than one people is working on a project to keep track of the updates, the modifies, the versions history, and much more. You can even use it from terminal once you installed their &#8220;rpm&#8221; (for the _redhatters_, git is the command in this case), To completely understand the potential of the software though, go to <a title="Github" href="http://www.github.com" target="_blank">their website</a> and read up what you find there, it&#8217;s pretty straight forward, and they explain everything better than me, for sure. This post is intended just as a suggestion for newbie developers that are looking for a good tool to manage their projects in collaboration with others, give it a try!
+It's very useful when more than one people is working on a project to keep track of the updates, the modifies, the versions history, and much more. You can even use it from terminal once you installed their "rpm" (for the _redhatters_, git is the command in this case), To completely understand the potential of the software though, go to <a title="Github" href="http://www.github.com" target="_blank">their website</a> and read up what you find there, it's pretty straight forward, and they explain everything better than me, for sure. This post is intended just as a suggestion for newbie developers that are looking for a good tool to manage their projects in collaboration with others, give it a try!

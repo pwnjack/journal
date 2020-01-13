@@ -24,14 +24,12 @@ tags:
   - scp
   - ssh copy
 ---
-You need to use &#8220;scp&#8221; (ssh copy), here&#8217;s how.
+You need to use "scp" (ssh copy), here's how.
 
 To copy a file from B to A while logged into B:
 
-<pre class="brush: plain; title: ; notranslate" title="">scp /path/to/file username@a:/path/to/destination
-</pre>
+    scp /path/to/file username@a:/path/to/destination
 
 To copy a file from B to A while logged into A:
 
-<pre class="brush: plain; title: ; notranslate" title="">scp username@b:/path/to/file /path/to/destination
-</pre>
+    scp username@b:/path/to/file /path/to/destination

@@ -29,11 +29,11 @@ tags:
   - learn web design
   - nettuts
 ---
-Interested in learning HMTL5 and CSS3 in an easy and fast way? Don&#8217;t know where to start from?
+Interested in learning HMTL5 and CSS3 in an easy and fast way? Don't know where to start from?
 
-Nothing better than Jeffrey Way&#8217;s courses, and the best part? This one is 100% free.
+Nothing better than Jeffrey Way's courses, and the best part? This one is 100% free.
 
-With <a title="30 days to learn HTML and CSS" href="https://courses.tutsplus.com/courses/30-days-to-learn-html-css" target="_blank">this course</a> you&#8217;ll learn how to build a webpage using HTML and CSS, compliant with the latest web standards, and the most important thing&#8230; learning with Jeffrey is a breeze.
+With <a title="30 days to learn HTML and CSS" href="https://courses.tutsplus.com/courses/30-days-to-learn-html-css" target="_blank">this course</a> you'll learn how to build a webpage using HTML and CSS, compliant with the latest web standards, and the most important thing… learning with Jeffrey is a breeze.
 
 Give it a try, you will be amazed.
 

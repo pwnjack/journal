@@ -36,17 +36,15 @@ More Videogames
 
 Cons:  
 Very bad user permissions management  
-Too long file name doesn&#8217;t work (programmatically speaking this is a big deal)  
+Too long file name doesn't work (programmatically speaking this is a big deal)  
 Setup a working environment is usually a pain and a lot time expensive  
 Updates every day, seriously, every f\***ing day  
 Virus vulnerable  
-The OS is not built and designed for every hardware so all hardware configurations are compromise, not it&#8217;s best  
+The OS is not built and designed for every hardware so all hardware configurations are compromise, not it's best  
 Internet Explorer  
-Long and messy installations, always getting unwanted software installed every time you install something if you don&#8217;t pay attention to small and hidden checkboxes  
+Long and messy installations, always getting unwanted software installed every time you install something if you don't pay attention to small and hidden checkboxes  
 Less intuitive (for beginners)  
 Silly filesystem incompatibilities with other devices
-
-&nbsp;
 
 **Mac**
 
@@ -68,6 +66,6 @@ A lot expensive to buy and repair
 Few videogames  
 Most software are for Windows first
 
-This is all folks&#8230; for now.
+This is all folks… for now.
 
 Comment below what you think about it.

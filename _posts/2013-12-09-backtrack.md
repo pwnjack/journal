@@ -22,4 +22,4 @@ categories:
   - quote
 format: quote
 ---
-The quieter you become, the more you are able to hear&#8230;
+The quieter you become, the more you are able to hear…

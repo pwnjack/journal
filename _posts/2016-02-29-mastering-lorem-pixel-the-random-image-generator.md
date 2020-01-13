@@ -31,15 +31,13 @@ Need a random image generator? <a href="http://lorempixel.com" target="_blank">L
 
 Populate your images by just adding this link to the src attribute of your<img /> tags, like so:
 
-<pre class="brush: xml; title: ; notranslate" title="">&lt;img src="http://lorempixel.com/250/250"&gt;
-</pre>
+<img src="http://lorempixel.com/250/250">
 
 The numbers are the width and height of the image you want to display.
 
-The problem comes when you have multiple images on the same page and, for instance, you want to create a grid of images all different from each other, here&#8217;s a solution:
+The problem comes when you have multiple images on the same page and, for instance, you want to create a grid of images all different from each other, here's a solution:
 
-<pre class="brush: xml; title: ; notranslate" title="">&lt;img src="http://lorempixel.com/250/250/abstract/1"&gt;
-</pre>
+<img src="http://lorempixel.com/250/250/abstract/1">
 
 You can choose a category (abstract, sport, etc, check the lorempixel website for more options) and a number, change the last number to always load a given image, so you can change it on every image tag and have all images different from each other.
 

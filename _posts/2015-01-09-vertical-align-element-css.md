@@ -27,17 +27,17 @@ tags:
 ---
 Here is the CSS code and remember that to preserve image quality (due to the half-pixel transformation issue) you have to apply this code to the parent element:
 
-<pre class="brush: css; title: ; notranslate" title="">.parent-element {
-  -webkit-transform-style: preserve-3d;
-  -moz-transform-style: preserve-3d;
-  transform-style: preserve-3d;
-}
 
-.element {
-  position: relative;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-</pre>
+    .parent-element {
+      -webkit-transform-style: preserve-3d;
+      -moz-transform-style: preserve-3d;
+      transform-style: preserve-3d;
+    }
+
+    .element {
+      position: relative;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -moz-transform: translateY(-50%);
+      transform: translateY(-50%);
+    }

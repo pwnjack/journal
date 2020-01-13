@@ -29,5 +29,4 @@ tags:
 ---
 The syntax to git clone a private repo is:
 
-<pre class="brush: plain; title: ; notranslate" title="">git clone https://username:password@github.com/username/reponame.git
-</pre>
+    git clone https://username:password@github.com/username/reponame.git

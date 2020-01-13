@@ -27,10 +27,10 @@ tags:
 ---
 The default command prompts programs are absolutely incomplete and unusable by anyone who really needs a good terminal, so here is my choice of softwares for both: Mac and Windows.
 
-**Mac**  
-<a href="http://iterm2.com/" title="iTerm 2" target="_blank">iTerm 2</a>
+    **Mac**  
+    <a href="http://iterm2.com/" title="iTerm 2" target="_blank">iTerm 2</a>
 
-**Windows**  
-<a href="http://bliker.github.io/cmder/" title="Cmder" target="_blank">Cmder</a>
+    **Windows**  
+    <a href="http://bliker.github.io/cmder/" title="Cmder" target="_blank">Cmder</a>
 
-That&#8217;s all folks. Enjoy the cleanness.
+That's all folks. Enjoy the cleanness.

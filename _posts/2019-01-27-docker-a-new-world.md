@@ -29,13 +29,13 @@ Docker is simply awesome.
 
 Need a virtual machine? 1 command, literally ONE command.
 
-<pre class="brush: plain; title: ; notranslate" title="">docker run -it ubuntu</pre>
+    docker run -it ubuntu
 
-BAM, you&#8217;re in.
+BAM, you're in.
 
-Yes. Inside an Ubuntu virtual machine, up and running. Don&#8217;t believe me? Try to:
+Yes. Inside an Ubuntu virtual machine, up and running. Don't believe me? Try to:
 
-<pre class="brush: plain; title: ; notranslate" title="">uname -a</pre>
+    uname -a
 
 Gotcha.
 

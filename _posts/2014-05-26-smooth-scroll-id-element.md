@@ -33,35 +33,34 @@ Here is an example that explains how to scroll to an HTML element using a simple
 
 This is the jQuery code:
 
-<pre class="brush: jscript; title: ; notranslate" title="">// Smooth scroll to section by targeting it's "name" attribute
-$( window ).load(function() {
-    $('a.scrollto[href*=#]').click(function() {
-        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
-        && location.hostname == this.hostname) {
-        var $target = $(this.hash);
-        $target = $target.length && $target || $('[name=' + this.hash.slice(1) +']');
-        if ($target.length) {
-        var targetOffset = $target.offset().top;
-        $('html,body').animate({scrollTop: targetOffset -82}, 1000);
-        return false;}
-        }
+    // Smooth scroll to section by targeting it's "name" attribute
+    $( window ).load(function() {
+        $('a.scrollto[href*=#]').click(function() {
+            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+            && location.hostname == this.hostname) {
+            var $target = $(this.hash);
+            $target = $target.length && $target || $('[name=' + this.hash.slice(1) +']');
+            if ($target.length) {
+            var targetOffset = $target.offset().top;
+            $('html,body').animate({scrollTop: targetOffset -82}, 1000);
+            return false;}
+            }
+        });
     });
-});
-</pre>
 
-The script scrolls the page to the targeted &#8220;name&#8221; attribute, defined by the &#8220;id&#8221; attribute on the clicked element, here&#8217;s an example:
+The script scrolls the page to the targeted "name" attribute, defined by the "id" attribute on the clicked element, here's an example:
 
 Clicking on:
 
-<pre class="brush: xml; title: ; notranslate" title="">&lt;a class="scrollto" href="#section-1"&gt;Go to Section 1&lt;/a&gt;
-</pre>
+
+
+
+
 
 Will scroll the page to:
 
-<pre class="brush: xml; title: ; notranslate" title="">&lt;section name="section-1"&gt;
-&lt;/section&gt;
-</pre>
+</section>
 
-Give a name attribute to every section of your website and When you click on the &#8220;link&#8221; the page will scroll to the section with the corresponding _name=&#8221;section-1&#8243;_ attribute.
+Give a name attribute to every section of your website and When you click on the "link" the page will scroll to the section with the corresponding _name="section-1"_ attribute.
 
-With this technique building your one-page website with a neat navigation menu that scrolls smoothly, is a breeze. Usually these kind of navigation menus are intended to have a &#8220;fixed&#8221; position, to follow you up while the page scrolls, either way it will stay on the top of the page and become useless after the first scroll, keep that in mind when you design your website.
+With this technique building your one-page website with a neat navigation menu that scrolls smoothly, is a breeze. Usually these kind of navigation menus are intended to have a "fixed" position, to follow you up while the page scrolls, either way it will stay on the top of the page and become useless after the first scroll, keep that in mind when you design your website.

@@ -1,6 +1,6 @@
 ---
 id: 176
-title: 'LiveReload for developers, and you&#8217;ll never hit the refresh button again'
+title: 'LiveReload for developers, and you'll never hit the refresh button again'
 date: 2014-02-25T11:12:09+00:00
 author: pwnjack
 layout: post
@@ -28,14 +28,14 @@ tags:
   - sass
   - web developing
 ---
-There&#8217;s a magic wonderland called LiveReload, and if you don&#8217;t know what I&#8217;m talking about, click <a title="LiveReload" href="http://livereload.com/" target="_blank">here</a>
+There's a magic wonderland called LiveReload, and if you don't know what I'm talking about, click <a title="LiveReload" href="http://livereload.com/" target="_blank">here</a>
 
-With this handy tool you simply have to add the folder of your web project to it and while you work, trough your favorite text editor, it will automatically refresh the browser window so you don&#8217;t have to refresh the page everytime you, even slightly, change the code.
+With this handy tool you simply have to add the folder of your web project to it and while you work, trough your favorite text editor, it will automatically refresh the browser window so you don't have to refresh the page everytime you, even slightly, change the code.
 
 The best part tho, is the LESS and SASS compiler, you can setup an auto-compiler that instantly converts your LESS or SASS file you are working on, in a compiled CSS for your project, on the fly.
 
 LiveReload is available for Mac, Windows and Linux. The stable version is for Mac tho.
 
-You can get it for 10 dollars directly trough the appstore. It&#8217;s not free, but is totally worth it, it saves you tons of time on the long term, believe me.
+You can get it for 10 dollars directly trough the appstore. It's not free, but is totally worth it, it saves you tons of time on the long term, believe me.
 
 Happy coding!

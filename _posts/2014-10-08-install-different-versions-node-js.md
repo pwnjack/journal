@@ -31,46 +31,42 @@ tags:
 ---
 How to install different versions of Node JS at the same time?
 
-There&#8217;s an aweosme tool out there that make this task a breeze.
+There's an aweosme tool out there that make this task a breeze.
 
 Acqually, there are 2 awesome tools out there:
 
-&#8211; <a href="https://github.com/creationix/nvm" title="nvm" target="_blank">nvm</a>  
-&#8211; <a href="https://github.com/visionmedia/n" title="n" target="_blank">n</a>
+- <a href="https://github.com/creationix/nvm" title="nvm" target="_blank">nvm</a>  
+- <a href="https://github.com/visionmedia/n" title="n" target="_blank">n</a>
 
 They are used to achieve the same goal: use different versions of Node, but they are slightly different, but this is not the scope of this post, we are here to explain how to do it.
 
-Although there&#8217;s <a href="http://stackoverflow.com/questions/15462700/nvm-or-n-or-something-else-to-upgrade-node-js" title="n vs nvm" target="_blank">this</a> awesome stackoverflow answer that explains it pretty well.
+Although there's <a href="http://stackoverflow.com/questions/15462700/nvm-or-n-or-something-else-to-upgrade-node-js" title="n vs nvm" target="_blank">this</a> awesome stackoverflow answer that explains it pretty well.
 
-But let&#8217;s get started!
+But let's get started!
 
 ## n
 
 open your terminal and do as follow:
 
-<pre class="brush: bash; title: ; notranslate" title="">npm install -g n
-</pre>
+    npm install -g n
 
 once installed:
 
-<pre class="brush: bash; title: ; notranslate" title="">sudo n 0.10.25
-</pre>
+    sudo n 0.10.25
 
 This will install Node version 0.10.25
 
 then to use it:
 
-<pre class="brush: bash; title: ; notranslate" title="">sudo n use 0.10.25
-</pre>
+    sudo n use 0.10.25
 
 You are now using node version 0.10.25
 
 There also some helpers like:
 
-<pre class="brush: bash; title: ; notranslate" title="">sudo n stable
+    sudo n stable
 
-sudo n latest
-</pre>
+    sudo n latest
 
 For the latest versions, stable and latest, as you can guess.
 
@@ -78,20 +74,16 @@ For the latest versions, stable and latest, as you can guess.
 
 Install it:
 
-<pre class="brush: bash; title: ; notranslate" title="">curl https://raw.githubusercontent.com/creationix/nvm/v0.17.2/install.sh | bash
-</pre>
+    curl https://raw.githubusercontent.com/creationix/nvm/v0.17.2/install.sh | bash
 
 Install desired version:
 
-<pre class="brush: bash; title: ; notranslate" title="">nvm install 0.10
-</pre>
+    nvm install 0.10
 
 Use it:
 
-<pre class="brush: bash; title: ; notranslate" title="">nvm use 0.10
-</pre>
+    nvm use 0.10
 
 or go back to your system version:
 
-<pre class="brush: bash; title: ; notranslate" title="">nvm use system
-</pre>
+    nvm use system

@@ -29,52 +29,41 @@ tags:
   - internet explorer
   - web design
 ---
-Soemtimes you&#8217;ll need to apply some CSS rules only for Internet Explorer (the worst web browser ever created), this happens because at Microsoft they like to create problems and to be different from the whole world standards. If you are a good boy you MUST sign <a title="Please discontinue Internet Explorer" href="https://www.change.org/petitions/discontinue-internet-explorer" target="_blank">this petition</a> to discontinue Internet Explorer, and save to us (web developers) tons of wasted time.
+Soemtimes you'll need to apply some CSS rules only for Internet Explorer (the worst web browser ever created), this happens because at Microsoft they like to create problems and to be different from the whole world standards. If you are a good boy you MUST sign <a title="Please discontinue Internet Explorer" href="https://www.change.org/petitions/discontinue-internet-explorer" target="_blank">this petition</a> to discontinue Internet Explorer, and save to us (web developers) tons of wasted time.
 
-Anyway if you need to optimize your web project to work with IE also, then you&#8217;ll find this queries pretty useful. They are meant to be used to assign some CSS rules to only Internet Explorer with a conditional tag, you can also specify the IE version on which you&#8217;d like to apply the CSS.
+Anyway if you need to optimize your web project to work with IE also, then you'll find this queries pretty useful. They are meant to be used to assign some CSS rules to only Internet Explorer with a conditional tag, you can also specify the IE version on which you'd like to apply the CSS.
 
 For example:
 
-<pre class="brush: xml; title: ; notranslate" title="">&lt;!–[if IE]&gt; – All IE versions
+    – All IE versions
 
-&lt;!–[if IE 6]&gt; – IE version 6
+    <!–[if IE 6]> – IE version 6
 
-&lt;!–[if !IE 6]&gt; – All IE versions except version 6
+    <!–[if !IE 6]> – All IE versions except version 6
 
-&lt;!–[if gt IE 6]&gt; – All IE versions greater than version 6 (excluded)
+    <!–[if gt IE 6]> – All IE versions greater than version 6 (excluded)
 
-&lt;!–[if gte IE 6]&gt; –All IE versions greater than version 6 (included)
+    <!–[if gte IE 6]> –All IE versions greater than version 6 (included)
 
-&lt;!–[if lt IE 6]&gt; – All IE versions less than version 6 (excluded)
+    <!–[if lt IE 6]> – All IE versions less than version 6 (excluded)
 
-&lt;!—[if lte IE 6]&gt; – All IE versions less than version 6 (included)
-
-</pre>
+    <!—[if lte IE 6]> – All IE versions less than version 6 (included)
 
 These above are the opening tags and off course you can use any version number (5, 6, 7, 8, 9, 10, etc.)
 
 Then apply your styles wrapped inside the style tag (because this is used HTML pages):
 
-<pre class="brush: xml; title: ; notranslate" title="">&lt;style&gt;
 /* your styles */
-&lt;/style&gt;
-
-</pre>
+</style>
 
 and then close the conditional tag:
-
-<pre class="brush: xml; title: ; notranslate" title="">&lt;![endif]--&gt;
-
-</pre>
 
 You can also, instead of putting the styles directly there as explained above, conditionally link css files, that will apply only if the specified IE version is found.
 
 Like this:
 
-<pre class="brush: xml; title: ; notranslate" title="">&lt;!--[if IE]&gt;
-  &lt;link href="ieOnlyStylesheet.css" /&gt;
-&lt;![endif]--&gt;
-</pre>
+  <link href="ieOnlyStylesheet.css" />
+<![endif]-->
 
 This is the common way to solve IE-related problems without messing up the entire project on the other browsers!
 

@@ -28,8 +28,7 @@ tags:
 ---
 Dear git users, here is an useful command for you.
 
-<pre class="brush: bash; title: ; notranslate" title="">git clone http://github.com/user/repo.git --branch branch_name
-</pre>
+git clone http://github.com/user/repo.git --branch branch_name
 
 Boom!
 

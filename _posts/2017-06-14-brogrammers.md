@@ -21,9 +21,9 @@ video_hosted_ogv:
 categories:
   - news
 ---
-Holla at ya&#8217; all brogrammers, it&#8217;s a tedious world I know, let&#8217;s do everything we can to automate that shit.
+Holla at y'all brogrammers, it's a tedious world I know, let's do everything we can to automate that shit.
 
-Behind every task, even the most simple, there&#8217;s always a Russian workaround.
+Behind every task, even the most simple, there's always a Russian workaround.
 
 This story is truly inspiring. Go ahead and have some [fun](https://github.com/NARKOZ/hacker-scripts).
 

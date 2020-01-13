@@ -25,20 +25,16 @@ tags:
   - show size
   - terminal
 ---
-Sometimes is difficult to have a quick view on which file is taking all that disk space, at least without opening every single folder to show it&#8217;s size information, which is a tedious task, instead there&#8217;s a quick command to show all file and folder size via terminal, very quickly.
+Sometimes is difficult to have a quick view on which file is taking all that disk space, at least without opening every single folder to show it's size information, which is a tedious task, instead there's a quick command to show all file and folder size via terminal, very quickly.
 
 Show current folder total size:
 
-<pre class="brush: bash; title: ; notranslate" title="">du -smh
-</pre>
-
-
+    du -smh
 
 Play with path:
 
-In current folder, show every file&#8217;s size
+In current folder, show every file's size
 
-<pre class="brush: bash; title: ; notranslate" title="">du -smh ./*
-</pre>
+    du -smh ./*
 
 To understand how the command works you can put it on <a href="http://explainshell.com/explain?cmd=du+-smh" target="_blank">explainshell.com</a>

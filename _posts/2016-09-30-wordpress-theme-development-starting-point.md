@@ -32,6 +32,6 @@ If you are facing this struggle here is where you have to start from.
 
 The best starting point to develop e a completely custom WordPress Theme is this: <a href="http://underscores.me/" target="_blank">Underscores</a> (or _S).
 
-It&#8217;s a skeleton template with some basic wordpress functionality integrations, ready to be worked on, to become your personal WP Theme.
+It's a skeleton template with some basic wordpress functionality integrations, ready to be worked on, to become your personal WP Theme.
 
 Enjoy your WP Development. Happy coding! 🙂

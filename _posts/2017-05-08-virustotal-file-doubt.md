@@ -26,4 +26,4 @@ Whenever you download something fishy from the internet, remember of this free s
 
 You can submit your files and it will analyze them for free. It can detect if a virus is present in 99% of the cases.
 
-It&#8217;s free, simple-to-use, awesome. Whenever you are in doubt, just do yourself a favor: avoid that risk. Scan that file with Virus Total, it&#8217;s a real life-saver!
+It's free, simple-to-use, awesome. Whenever you are in doubt, just do yourself a favor: avoid that risk. Scan that file with Virus Total, it's a real life-saver!

@@ -34,9 +34,9 @@ To create a footer in your website in the fastest and easiest way you can procee
 
 Give to the parent <div> a relative position, then set the footer to an absolute position and add also
 
-<pre class="brush: plain; title: ; notranslate" title="">bottom: 0;</pre>
+    bottom: 0;
 
-and give it a height and a background so you can see it. And that&#8217;s pretty much everything, you got your footer!
+and give it a height and a background so you can see it. And that's pretty much everything, you got your footer!
 
 For better understanding of the code and to re-create it by yourself, you can find a working example <a title="JsFiddle" href="http://jsfiddle.net/d9sYg/" target="_blank">here</a>.
 

@@ -26,13 +26,13 @@ tags:
   - initializr
   - website template
 ---
-When you&#8217;ll need to start a new website&#8217;s front-end you&#8217;ll do some common-practice tasks that usually are repeated in every project and they are pretty annoying to be done again and again every single time, but hey, there&#8217;s a good news, there&#8217;s <a title="Initializr" href="http://www.initializr.com/" target="_blank">Initializr</a>, a nice web tool ready to help you.
+When you'll need to start a new website's front-end you'll do some common-practice tasks that usually are repeated in every project and they are pretty annoying to be done again and again every single time, but hey, there's a good news, there's <a title="Initializr" href="http://www.initializr.com/" target="_blank">Initializr</a>, a nice web tool ready to help you.
 
-Initializr is a web service that let you compile some options on a web interface and generates a downloadable web project solid base to start from. For example it creates a ready-to-go folder structure, divided in img/js/css and all that commons assets you&#8217;ll usually need in you project, and when you download the package it let you choose which frameworks you want to include in your project or not (like Bootstrap, a Responsive Template, etc.), or you if don&#8217;t need any you can simple choose to start with a standard HTML5 ready boilerplate template.
+Initializr is a web service that let you compile some options on a web interface and generates a downloadable web project solid base to start from. For example it creates a ready-to-go folder structure, divided in img/js/css and all that commons assets you'll usually need in you project, and when you download the package it let you choose which frameworks you want to include in your project or not (like Bootstrap, a Responsive Template, etc.), or you if don't need any you can simple choose to start with a standard HTML5 ready boilerplate template.
 
-It&#8217;s very helpful so all the common practices are done and ready to go and you don&#8217;t need to re-invent the wheel every time but you can use it straight away and start to customize your project (the fun part) in no time.
+It's very helpful so all the common practices are done and ready to go and you don't need to re-invent the wheel every time but you can use it straight away and start to customize your project (the fun part) in no time.
 
-Inside Initliazr Boilerplate base template you&#8217;ll find:
+Inside Initliazr Boilerplate base template you'll find:
 
   * HTML — A guide to the default HTML.
   * CSS — A guide to the default CSS.

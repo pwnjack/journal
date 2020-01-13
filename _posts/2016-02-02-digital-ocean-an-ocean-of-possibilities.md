@@ -27,7 +27,7 @@ tags:
 ---
 Tired of struggling with all those hosting companies, server management, DNS configurations, and tedious tasks?
 
-Here&#8217;s a smart solution to centralize them all if you have a developer mindset.
+Here's a smart solution to centralize them all if you have a developer mindset.
 
 The folks at <a href="http://www.digitalocean.com" target="_blank">Digital Ocean</a> has made the implementation of virtual server completely effortless. You can create a virtual machine in something close to 55 seconds.
 

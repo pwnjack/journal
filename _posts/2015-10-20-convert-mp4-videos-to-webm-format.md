@@ -34,25 +34,21 @@ The easiest way to convert mp4 video to webm, the format needed to properly embe
 
 Install ffmpeg for CLI via brew (OSX):
 
-<pre class="brush: plain; title: ; notranslate" title="">brew install ffmpeg --with-libvpx --with-libvorbis --with-fdk-aacc
-</pre>
+    brew install ffmpeg --with-libvpx --with-libvorbis --with-fdk-aacc
 
 Then use the following command to do the conversion:
 
-<pre class="brush: plain; title: ; notranslate" title="">ffmpeg -i input-file.mp4 -c:v libvpx -crf 10 -b:v 1M -c:a libvorbis output-file.webm
-</pre>
+    ffmpeg -i input-file.mp4 -c:v libvpx -crf 10 -b:v 1M -c:a libvorbis output-file.webm
 
 The command format is as follows:
 
-<pre class="brush: plain; title: ; notranslate" title="">ffmpeg [global options] [input file options] -i input-file-name [output options] output-file-name
-</pre>
+    ffmpeg [global options] [input file options] -i input-file-name [output options] output-file-name
 
 To convert multiple videos at once create an .sh file, set its permission to 755 and paste the following code in it, then run it.
 
-<pre class="brush: plain; title: ; notranslate" title="">#!/bin/bash
-VIDEOS=~/Desktop/video-folder/
-find "$VIDEOS" -name '*.mp4' -exec sh -c 'ffmpeg -i "$0" -c:v libvpx -crf 10 -b:v 1M -c:a libvorbis "${0%%.mp4}.webm"' {} \;
-exit;
-</pre>
+    #!/bin/bash
+    VIDEOS=~/Desktop/video-folder/
+    find "$VIDEOS" -name '*.mp4' -exec sh -c 'ffmpeg -i "$0" -c:v libvpx -crf 10 -b:v 1M -c:a libvorbis "${0%%.mp4}.webm"' {} \;
+    exit;
 
 Enjoy

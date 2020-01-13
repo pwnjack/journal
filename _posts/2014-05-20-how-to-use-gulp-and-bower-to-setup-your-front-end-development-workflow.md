@@ -28,9 +28,9 @@ tags:
 ---
 I made <a title="gulpfile-bower" href="https://github.com/pwnjack/gulpfile-bower" target="_blank">this git</a> on github.
 
-It&#8217;s a complete guide to setup a working environment with a task manager (Gulp) and a Package Manager (Bower) and a configuration file (gulpfile), them together with this git you have a full working environment, you can use it straight to go or, obviously, you can make your own modifications to suit your workflow.
+It's a complete guide to setup a working environment with a task manager (Gulp) and a Package Manager (Bower) and a configuration file (gulpfile), them together with this git you have a full working environment, you can use it straight to go or, obviously, you can make your own modifications to suit your workflow.
 
-To better understand how it works and to get started with it read the git&#8217;s documentation and follow the instructions!
+To better understand how it works and to get started with it read the git's documentation and follow the instructions!
 
 <a title="gulpfile-bower" href="http://github.com/pwnjack/gulpfile-bower" target="_blank">View on github</a>
 

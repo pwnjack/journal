@@ -26,47 +26,46 @@ tags:
   - css
   - tooltip
 ---
-At bootstrap they decided to get tooltip styling even more complicated. To get rid of the black arrow when changing a tooltip&#8217;s background you have to keep in mind the tooltip direction.
+At bootstrap they decided to get tooltip styling even more complicated. To get rid of the black arrow when changing a tooltip's background you have to keep in mind the tooltip direction.
 
 e.g.
 
-<pre class="brush: xml; title: ; notranslate" title="">&lt;!-- The markup --&gt;
-&lt;a href="#" data-toggle="tooltip" data-placement="bottom"
-   title="" data-original-title="Tooltip on bottom"
-   class="red-tooltip"&gt;Tooltip on bottom&lt;/a&gt;
-</pre>
+    <!-- The markup -->
+    <a href="#" data-toggle="tooltip" data-placement="bottom"
+      title="" data-original-title="Tooltip on bottom"
+      class="red-tooltip">Tooltip on bottom
+    </a>
 
-<pre class="brush: css; title: ; notranslate" title="">/* top tooltip */
-.tooltip.top .tooltip-inner {
-    background-color: red;
-}
-.tooltip.top .tooltip-arrow {
-      border-top-color: red;
-}
+    /* top tooltip */
+    .tooltip.top .tooltip-inner {
+        background-color: red;
+    }
+    .tooltip.top .tooltip-arrow {
+          border-top-color: red;
+    }
 
-/* bottom tooltip */
-.tooltip.bottom .tooltip-inner {
-    background-color: red;
-}
-.tooltip.bottom .tooltip-arrow {
-      border-bottom-color: red;
-}
+    /* bottom tooltip */
+    .tooltip.bottom .tooltip-inner {
+        background-color: red;
+    }
+    .tooltip.bottom .tooltip-arrow {
+          border-bottom-color: red;
+    }
 
-/* right tooltip */
-.tooltip.right .tooltip-inner {
-    background-color: red;
-}
-.tooltip.right .tooltip-arrow {
-      border-right-color: red;
-}
+    /* right tooltip */
+    .tooltip.right .tooltip-inner {
+        background-color: red;
+    }
+    .tooltip.right .tooltip-arrow {
+          border-right-color: red;
+    }
 
-/* left tooltip */
-.tooltip.left .tooltip-inner {
-    background-color: red;
-}
-.tooltip.left .tooltip-arrow {
-      border-left-color: red;
-}
-</pre>
+    /* left tooltip */
+    .tooltip.left .tooltip-inner {
+        background-color: red;
+    }
+    .tooltip.left .tooltip-arrow {
+          border-left-color: red;
+    }
 
 Hurrayyy!!

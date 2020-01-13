@@ -26,14 +26,14 @@ tags:
   - open-source
   - phpbb
 ---
-Sometimes people ask me how to set-up a forum and which one is the best platform that&#8217;s free and open-source. No better choiche than phpBB. A complete board system completely free and pretty straight forward to use, no code skills needed.
+Sometimes people ask me how to set-up a forum and which one is the best platform that's free and open-source. No better choiche than phpBB. A complete board system completely free and pretty straight forward to use, no code skills needed.
 
-You can find it on it&#8217;s <a title="phpBB" href="https://www.phpbb.com" target="_blank">official website</a>.
+You can find it on it's <a title="phpBB" href="https://www.phpbb.com" target="_blank">official website</a>.
 
 As you can guess is php based so better keep this in mind while purchasing your hosting plan (almost every hoting provider offer php support nowadays tho).
 
-The installation is not difficult at all, you just have to know some credentials given by your service provider and you are ready to go. In any case on their website you&#8217;ll find all the documentation needed if you missed something.
+The installation is not difficult at all, you just have to know some credentials given by your service provider and you are ready to go. In any case on their website you'll find all the documentation needed if you missed something.
 
-It comes with a lot of community-developed themes and styles that you can find across the web and it&#8217;s customization level it&#8217;s awesome!
+It comes with a lot of community-developed themes and styles that you can find across the web and it's customization level it's awesome!
 
 Enjoy the best open-source forum paltform!
