@@ -28,7 +28,7 @@ tags:
 ---
 Dear git users, here is an useful command for you.
 
-git clone http://github.com/user/repo.git --branch branch_name
+    git clone http://github.com/user/repo.git --branch branch_name
 
 Boom!
 

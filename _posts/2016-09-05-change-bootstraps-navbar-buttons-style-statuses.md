@@ -1,6 +1,6 @@
 ---
 id: 698
-title: 'How to change bootstrap's navbar buttons style, in all statuses'
+title: How to change bootstrap's navbar buttons style, in all statuses
 date: 2016-09-05T18:15:27+00:00
 author: pwnjack
 layout: post

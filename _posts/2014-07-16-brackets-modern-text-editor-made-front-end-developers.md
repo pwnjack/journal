@@ -30,6 +30,8 @@ tags:
   - js
   - text editor
 ---
+The IDE dilemma, which one to use? There's a new guy in town.
+
 Brackets from Adobe (<a href="http://brackets.io" title="http://brackets.io" target="_blank">http://brackets.io</a>) is a new text-editor made for front-end developers, it's completely written in javascript and comes with an ever-growing list of plugins to enhance your experience.
 
 Right now i feel pretty good using Sublime Text, which is awesome, but I decided to give Brackets a try.

@@ -1,6 +1,6 @@
 ---
 id: 521
-title: 'Download images of a target website using wget's magic'
+title: Download images of a target website using wget's magic
 date: 2015-01-28T15:28:06+00:00
 author: pwnjack
 layout: post

@@ -38,15 +38,15 @@ This is the default selector, you can use any html element like p, a, body, html
 
 The id is unique on your page, so use this only if you want to use it once on you page.
 
-   .class
+    .class
 
 The most common, like id but can be used multiple times in your page, i almost use only calsses.
 
-   *
+    *
 
 The asterisk select
 
-   .class p
+    .class p
 
 This will select the descendant child p of the indicated class.
 

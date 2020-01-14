@@ -1,6 +1,6 @@
 ---
 id: 97
-title: 'How to listen to Pandora Radio if it's not available in your country'
+title: How to listen to Pandora Radio if it's not available in your country
 date: 2014-01-24T11:02:12+00:00
 author: pwnjack
 layout: post

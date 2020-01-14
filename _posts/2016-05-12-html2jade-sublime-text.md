@@ -37,8 +37,8 @@ With [html2jade](https://github.com/anderson916/sublime-html2jade) converting HT
 
 You can:
 
-- Convert whole HTML file Shift+Alt+F - creates new file in the same folder using the same name as the source ending with '.html'.  
-- Convert selection Shift+Alt+S - replaces selection of HTML with JADE content.  
-- Convert clipboard content Shift+Alt+V - inserts JADE of converted clipboard HTML content.
+  - Convert whole HTML file Shift+Alt+F - creates new file in the same folder using the same name as the source ending with '.html'.  
+  - Convert selection Shift+Alt+S - replaces selection of HTML with JADE content.  
+  - Convert clipboard content Shift+Alt+V - inserts JADE of converted clipboard HTML content.
 
-A real time saver.
+A real time-saver.

@@ -49,7 +49,7 @@ And then you'll be inside the target computer and you can use the terminal exact
 
 You can do a bunch of awesome stuff for example:
 
-- Write a text file and open it on the target computer (scary as fuck for an unsuspecting person)
+Write a text file and open it on the target computer (scary as fuck for an unsuspecting person)
 
     nano examplefile.txt
 

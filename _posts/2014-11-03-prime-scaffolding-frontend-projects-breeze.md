@@ -62,19 +62,15 @@ At this point you should have your machine ready to use Prime.
 
 To set it up you have to do a couple o things:
 
-- Download it from github
+Download it from github
 
 In the terminal shell type:
 
     git clone http://github.com/pwnjack/prime
 
-
-
-- Move inside and install Prime dependencies:
+Move inside and install Prime dependencies:
 
     npm install
-
-
 
 Then install you project dependencies (default: jquery, bootstrap, modernizr)
 
@@ -82,19 +78,13 @@ To add new dependencies/packages do so using this format:
 
     bower install --save <package-name>
 
-
-
 When done defining the packages for your project run:
 
     gulp
 
-
-
 Work on your project with your favorite text editor and when your website is ready, build it up for production:
 
     gulp build
-
-
 
 Congratulations, your website is ready to be uploaded on your web host.
 

@@ -27,4 +27,6 @@ tags:
   - package manager
 format: quote
 ---
-Fixing npm On Mac OS X for Homebrew Users
+Fixing npm On Mac OS X for Homebrew Users.
+
+Follow [this](https://gist.github.com/DanHerbert/9520689).

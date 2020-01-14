@@ -1,6 +1,6 @@
 ---
 id: 496
-title: 'How to make the header fixed when the page scrolls to it's position'
+title: How to make the header fixed when the page scrolls to it's position
 date: 2015-01-14T12:46:15+00:00
 author: pwnjack
 layout: post
@@ -30,3 +30,5 @@ This is a nice technique to make the header of your website become fixed when th
 The script will add the "sticky" class to the header when the page scrolls down and remove it when it scrolls back up. Simple and efficent.
 
 Here's the fiddle:
+
+<p><script async src="//jsfiddle.net/pwnjack/nhj3h4vu/embed/"></script></p>

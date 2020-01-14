@@ -1,6 +1,6 @@
 ---
 id: 671
-title: 'Need to drag things around? Here's an awesome drag plugin: Dragdealer'
+title: "Need to drag things around? Here's an awesome drag plugin: Dragdealer"
 date: 2016-04-30T21:56:43+00:00
 author: pwnjack
 layout: post

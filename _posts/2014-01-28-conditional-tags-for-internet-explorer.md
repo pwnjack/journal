@@ -29,7 +29,9 @@ tags:
   - internet explorer
   - web design
 ---
-Soemtimes you'll need to apply some CSS rules only for Internet Explorer (the worst web browser ever created), this happens because at Microsoft they like to create problems and to be different from the whole world standards. If you are a good boy you MUST sign <a title="Please discontinue Internet Explorer" href="https://www.change.org/petitions/discontinue-internet-explorer" target="_blank">this petition</a> to discontinue Internet Explorer, and save to us (web developers) tons of wasted time.
+We developers hate Internet Explorer, for various reasons, one of them is that we have to use specific conditional tag just for it, imagine how bad it is just by that.
+
+Sometimes you'll need to apply some CSS rules only for Internet Explorer (the worst web browser ever created), this happens because at Microsoft they like to create problems and to be different from the whole world standards. If you are a good boy you MUST sign <a title="Please discontinue Internet Explorer" href="https://www.change.org/petitions/discontinue-internet-explorer" target="_blank">this petition</a> to discontinue Internet Explorer, and save to us (web developers) tons of wasted time.
 
 Anyway if you need to optimize your web project to work with IE also, then you'll find this queries pretty useful. They are meant to be used to assign some CSS rules to only Internet Explorer with a conditional tag, you can also specify the IE version on which you'd like to apply the CSS.
 
@@ -53,17 +55,21 @@ These above are the opening tags and off course you can use any version number (
 
 Then apply your styles wrapped inside the style tag (because this is used HTML pages):
 
-/* your styles */
-</style>
+    <style>
+      /* your styles */
+    </style>
 
 and then close the conditional tag:
+
+    <![endif]-->
 
 You can also, instead of putting the styles directly there as explained above, conditionally link css files, that will apply only if the specified IE version is found.
 
 Like this:
 
-  <link href="ieOnlyStylesheet.css" />
-<![endif]-->
+    <!--[if IE]>
+      <link href="ieOnlyStylesheet.css" />
+    <![endif]-->
 
 This is the common way to solve IE-related problems without messing up the entire project on the other browsers!
 

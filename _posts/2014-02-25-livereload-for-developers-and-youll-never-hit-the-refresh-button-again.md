@@ -1,6 +1,6 @@
 ---
 id: 176
-title: 'LiveReload for developers, and you'll never hit the refresh button again'
+title: LiveReload for developers, and you'll never hit the refresh button again
 date: 2014-02-25T11:12:09+00:00
 author: pwnjack
 layout: post
@@ -28,6 +28,8 @@ tags:
   - sass
   - web developing
 ---
+Hey developer, I have something for you.
+
 There's a magic wonderland called LiveReload, and if you don't know what I'm talking about, click <a title="LiveReload" href="http://livereload.com/" target="_blank">here</a>
 
 With this handy tool you simply have to add the folder of your web project to it and while you work, trough your favorite text editor, it will automatically refresh the browser window so you don't have to refresh the page everytime you, even slightly, change the code.

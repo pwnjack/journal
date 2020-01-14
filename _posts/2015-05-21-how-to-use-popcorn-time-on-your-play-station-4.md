@@ -29,9 +29,9 @@ tags:
   - ps4
   - streaming
 ---
-<a href="https://popcorntime.io/" target="_blank">Popcorn Time</a> is the ultimate streaming application, it's awesome and free.
+Popcorn Time is the ultimate streaming application, it's awesome and free.
 
-Let's see how to bring it's awesomeness to your PS4 System and watch your favorite movies directly on your huge-sized television with no cable link needed. To do so we need another cool software: <a href="https://plex.tv/" target="_blank">Plex</a>.
+Let's see how to bring it's awesomeness to your PS4 System and watch your favorite movies directly on your huge-sized television with no cable link needed. To do so we need another cool software: [Plex](https://plex.tv/).
 
 Follow these simple steps:
 
@@ -43,8 +43,6 @@ Open Popcorn Time and go to Settings, check "Show advanced settings", scroll dow
 Then open Plex and add a new library using the plus sign in the left sidebar, select "Movies" and set the path to the same "Cache Directory" we just configured in Popcorn Time.
 
 Now open the Terminal on your computer and type "ifconfig" (Mac), look at your IPv4 address and type it in your PS4's internet browser, adding ":34000/home/index.html" at the end, like so:
-
-(ex.)
 
     192.168.1.10:34000/home/index.html
 

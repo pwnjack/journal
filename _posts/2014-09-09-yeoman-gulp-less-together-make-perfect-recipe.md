@@ -27,6 +27,8 @@ tags:
   - recipe
   - yeoman
 ---
+Hello coders,
+
 Remember <a href="http://pwnjack.com/yeoman-scaffolding-webapp-yo-gulp/" title="Yeoman, scaffolding your webapp with Yo and Gulp" target="_blank">Yeoman</a>? Our favorite scaffolding gentleman is gulp-ready, but unfortunately the actual gulp-generator supports only sass, but damn, I prefer less.
 
 If you do too, you could find useful this gulp-less version I made, ready-to-go.

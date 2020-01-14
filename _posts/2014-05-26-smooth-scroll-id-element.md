@@ -52,14 +52,12 @@ The script scrolls the page to the targeted "name" attribute, defined by the "id
 
 Clicking on:
 
-
-
-
-
+    <a class="scrollto" href="#section-1">Go to Section 1</a>
 
 Will scroll the page to:
 
-</section>
+    <section name="section-1">
+    </section>
 
 Give a name attribute to every section of your website and When you click on the "link" the page will scroll to the section with the corresponding _name="section-1"_ attribute.
 

@@ -26,6 +26,8 @@ tags:
   - gulp-bower
   - gulpfile
 ---
+Hey there,
+
 I made <a title="gulpfile-bower" href="https://github.com/pwnjack/gulpfile-bower" target="_blank">this git</a> on github.
 
 It's a complete guide to setup a working environment with a task manager (Gulp) and a Package Manager (Bower) and a configuration file (gulpfile), them together with this git you have a full working environment, you can use it straight to go or, obviously, you can make your own modifications to suit your workflow.

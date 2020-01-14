@@ -29,15 +29,15 @@ tags:
 ---
 To install Node with the minimum effort possible follow these instructions and you will be amazed how fast it is.
 
-1. Install <a href="http://brew.sh" title="Homebrew" target="_blank">Homebrew</a> with this one-liner:
+Install <a href="http://brew.sh" title="Homebrew" target="_blank">Homebrew</a> with this one-liner:
 
     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-2. Install <a href="http://nodejs.org/" title="NodeJS" target="_blank">Node</a> via Homebrew (NOTE: You don't have to sudo with brew, it does everything for you.)
+Install <a href="http://nodejs.org/" title="NodeJS" target="_blank">Node</a> via Homebrew (NOTE: You don't have to sudo with brew, it does everything for you.)
 
     brew install node
 
-3. You are done, but i suggest you to install also <a href="https://github.com/creationix/nvm" title="nvm" target="_blank">nvm</a>, the node version manager.
+You are done, but i suggest you to install also <a href="https://github.com/creationix/nvm" title="nvm" target="_blank">nvm</a>, the node version manager.
 
     curl https://raw.githubusercontent.com/creationix/nvm/v0.17.2/install.sh | bash
 

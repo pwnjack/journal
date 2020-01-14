@@ -28,6 +28,8 @@ tags:
   - stellar
   - web design
 ---
+Hey design folks,
+
 You know <a title="Parallax JS" href="http://wagerfield.github.io/parallax" target="_blank">Parallax </a>right? The great plugin that allows you to build those sites where the background flows more slowly than the page creating a 3D-like effect? Well, actually it does a lot more but, just to have an idea.
 
 The problem is that sometimes it's not that easy to setup and achieve the effect you imagined without digging in the documentaion spending hours of time that you usally don't have, but hey, there's an awesome plugin out there, based on Parallax, called <a title="Stellar JS" href="http://markdalgleish.com/projects/stellar.js" target="_blank">Stellar JS</a>.
