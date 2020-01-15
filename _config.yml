@@ -1,7 +1,7 @@
 site: pwnjack
 
 url: pwnjack.github.io
-baseurl: /
+baseurl: /journal
 
 collections:
   pages:

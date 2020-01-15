@@ -4,9 +4,9 @@ title: Getting mad refreshing the page and not seeing changes? Flush your DNS ca
 date: 2017-06-15T14:37:16+00:00
 author: pwnjack
 layout: post
+comments: true
 guid: http://pwnjack.com/?p=743
 permalink: /getting-mad-refreshing-page-not-seeing-changes-flush-dns-cache/
-comments: true
 quote_link:
   - ""
 other_media:
