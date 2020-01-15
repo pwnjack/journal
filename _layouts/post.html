@@ -20,5 +20,11 @@ layout: default
 		{{ page.content }}
 
 	</div>
+	
+	<div class="comments">
+		{% if site.disqus.shortname %}
+			{% include disqus-comments.html %}
+		{% endif %}
+	</div>
 
 </section>

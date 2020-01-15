@@ -6,6 +6,7 @@ author: pwnjack
 layout: post
 guid: http://pwnjack.com/?p=743
 permalink: /getting-mad-refreshing-page-not-seeing-changes-flush-dns-cache/
+comments: true
 quote_link:
   - ""
 other_media:
